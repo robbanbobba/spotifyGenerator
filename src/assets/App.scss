@@ -1,0 +1,87 @@
+@import "bootstrap/scss/bootstrap";
+
+.clickList {
+    cursor: pointer
+}
+
+div.list-group-item {
+    background-color: #00FF93;
+    color: #006CFF;
+}
+
+div.list-group {
+    margin: 10px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+body {
+    background-color: #91F6FF;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.startPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #006CFF;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #3389FF;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #3389FF;
+    font-size: 12px;
+}
+
+button {
+    background-color: #00FF93;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #006CFF;
+    margin-bottom: 5px;
+}
+
+button:hover {
+    background-color: #00eb88;
+}
+
+p {
+    color: #006CFF;
+    font-size: 20px;
+}
+
+li {
+    color: #006CFF;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+    color: #3389FF;
+}
